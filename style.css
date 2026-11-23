@@ -6,7 +6,7 @@ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:en
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;overflow-x:clip;background:var(--page);color:var(--ink);font:400 16px/24px Geist,system-ui,sans-serif;text-wrap:pretty}
 h1,h2,h3,h4,p{margin:0}
-.heading-2{font:600 48px/48px Geist,system-ui,sans-serif;text-wrap:balance}.heading-3{font:600 36px/40px Geist,system-ui,sans-serif;text-wrap:balance}.heading-4{font:600 30px/36px Geist,system-ui,sans-serif;text-wrap:balance}.heading-5{font:600 24px/32px Geist,system-ui,sans-serif}
+.heading-2{font:600 48px/52px Geist,system-ui,sans-serif;letter-spacing:-0.035em;text-wrap:balance}.heading-3{font:600 38px/44px Geist,system-ui,sans-serif;letter-spacing:-0.03em;text-wrap:balance}.heading-4{font:600 30px/36px Geist,system-ui,sans-serif;letter-spacing:-0.025em;text-wrap:balance}.heading-5{font:600 22px/30px Geist,system-ui,sans-serif;letter-spacing:-0.02em}
 .title-1{font:500 20px/28px Geist,system-ui,sans-serif}.title-2{font:500 18px/28px Geist,system-ui,sans-serif}.title-3{font:500 16px/24px Geist,system-ui,sans-serif}.title-4{font:500 14px/20px Geist,system-ui,sans-serif}
 .body-3{font:400 16px/24px Geist,system-ui,sans-serif}.body-6{font:400 14px/20px Geist,system-ui,sans-serif}
 .button-md{font:600 16px/24px Geist,system-ui,sans-serif}.button-sm{font:600 14px/20px Geist,system-ui,sans-serif}
@@ -104,7 +104,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .ttl a{display:flex;gap:8px;text-decoration:none;background:var(--card);padding:4px 12px;border-radius:8px}
 .bw{position:relative;text-align:center;margin-top:48px}
 .big{font:600 128px/1 Geist,system-ui,sans-serif;color:var(--ink)}
-.script{display:block;margin-top:-8px;transform:rotate(-4deg);font:400 96px/1 Allura,cursive;color:var(--acc);white-space:nowrap;pointer-events:none}
+.script{display:inline-block;font:italic 400 92px/1 'Instrument Serif', Georgia, serif;color:var(--acc);vertical-align:baseline;margin-left:12px;letter-spacing:-0.01em;pointer-events:none}
 .hb{max-width:680px;margin:32px auto 0;text-align:center}
 .hb .sub{margin:16px auto 24px;max-width:680px}.hb .proof{margin-top:12px}
 .pills{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:48px}
@@ -113,7 +113,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 /* about */
 .about{display:grid;grid-template-columns:1fr;gap:24px;align-items:center}
 .ul{display:block;width:48px;height:2px;background:var(--ink);margin:8px 0 16px}
-.hand{font:400 24px/32px Allura,cursive;color:var(--acc);margin-top:16px;display:block}
+.hand{font:400 24px/32px 'Instrument Serif', Georgia, serif;color:var(--acc);margin-top:16px;display:block}
 .arch{width:240px;height:264px;border-radius:120px 120px 0 0;overflow:hidden;background:#62768c;border:4px solid var(--card2);order:-1;justify-self:center}
 .arch img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
 .skills{display:grid;grid-template-columns:1fr 1px 1fr;gap:24px;align-items:center}

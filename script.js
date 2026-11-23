@@ -16,15 +16,29 @@ if(reduce||!('IntersectionObserver' in window)){tl.classList.add('done')}else{
 }
 var f=document.getElementById('f');
 function chk(id,eid,ok,msg){var i=f.elements[id],er=document.getElementById(eid);er.textContent=ok(i.value)?'':msg;i.setAttribute('aria-invalid',ok(i.value)?'false':'true');return ok(i.value)}
-f.addEventListener('submit',function(ev){ev.preventDefault();
-  var a=chk('n','en',function(v){return v.trim().length>1},'Enter your name.'),
-  c=chk('e','ee',function(v){return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v.trim())},'Enter a valid email address.'),
-  d=chk('m','em',function(v){return v.trim().length>9},'Tell us a little about your business.');
-  if(!(a&&c&&d))return;
-  var sb=document.getElementById('sb');sb.disabled=true;sb.textContent='Preparing your email';
-  var x=new FormData(f),body='Name: '+x.get('n')+'\nEmail: '+x.get('e')+'\nWebsite: '+x.get('w')+'\n\n'+x.get('m');
-  setTimeout(function(){location.href='mailto:hello@kitebasestudio.example?subject='+encodeURIComponent('Website review request from '+x.get('n'))+'&body='+encodeURIComponent(body);sb.disabled=false;sb.textContent='Get a free site review';document.getElementById('ok').hidden=false},400);
-});
+if(f){
+  f.addEventListener('submit',function(ev){ev.preventDefault();
+    var a=chk('n','en',function(v){return v.trim().length>1},'Please enter your name.'),
+    c=chk('e','ee',function(v){return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v.trim())},'Please enter a valid work email.'),
+    d=chk('m','em',function(v){return v.trim().length>9},'Please share a brief note on what you would like to build.');
+    if(!(a&&c&&d))return;
+    var sb=document.getElementById('sb');sb.disabled=true;sb.textContent='Transmitting audit request...';
+    var x=new FormData(f);
+    var nameVal = x.get('n') ? x.get('n').trim() : 'there';
+    var emailVal = x.get('e') ? x.get('e').trim() : 'your email';
+    setTimeout(function(){
+      f.style.display='none';
+      var ok=document.getElementById('ok');
+      if(ok){
+        var cName = document.getElementById('client-name');
+        var cEmail = document.getElementById('client-email');
+        if(cName) cName.textContent = nameVal;
+        if(cEmail) cEmail.textContent = emailVal;
+        ok.hidden=false;
+      }
+    },600);
+  });
+}
 (function(){
   if(reduce||!matchMedia('(pointer:fine)').matches)return;
   var cur=scrollY,target=scrollY,raf=0;

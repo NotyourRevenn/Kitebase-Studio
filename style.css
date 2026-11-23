@@ -170,13 +170,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .sprint-num{font:700 32px/1 'Instrument Serif',Georgia,serif;color:var(--acc);display:block;margin-bottom:12px;opacity:.8}
 
 /* faq + cta */
-details{background:var(--card2);border-radius:12px;padding:12px 16px;margin-bottom:8px}
-summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+details{background:var(--card2);border:1px solid var(--b1);border-radius:12px;padding:14px 18px;margin-bottom:10px;transition:border-color 200ms var(--ease),background 200ms var(--ease)}
+details:hover{border-color:var(--acc)}
+details[open]{border-color:var(--acc);background:var(--card)}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center;font-weight:600}
 summary::-webkit-details-marker{display:none}
-summary::after{content:"";flex:none;width:12px;height:12px;background:linear-gradient(currentColor,currentColor) center/12px 2px no-repeat,linear-gradient(currentColor,currentColor) center/2px 12px no-repeat}
-details[open] summary::after{background:linear-gradient(currentColor,currentColor) center/12px 2px no-repeat}
-details p{margin-top:8px}
-.faq{margin-top:24px}
+summary::after{content:"";flex:none;width:12px;height:12px;background:linear-gradient(currentColor,currentColor) center/12px 2px no-repeat,linear-gradient(currentColor,currentColor) center/2px 12px no-repeat;transition:transform 200ms var(--ease);opacity:.7}
+details[open] summary::after{background:linear-gradient(currentColor,currentColor) center/12px 2px no-repeat;transform:rotate(180deg);opacity:1}
+details p{margin-top:10px;line-height:22px}
+.faq{margin-top:20px}
+.faq-cta{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:20px;padding:16px;background:var(--card2);border-radius:12px;border:1px dashed var(--b1);flex-wrap:wrap}
 .cta h2 span{color:var(--acc)}.cta .star{display:none}
 .cta .cl{display:grid;gap:8px;margin:16px 0 24px}
 form{display:grid;gap:12px;margin-top:16px}

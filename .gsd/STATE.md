@@ -3,6 +3,8 @@
 ## Current Phase: Complete
 ## Status: Verified & Committed
 ## Completed:
-- Removed all yellow/amber kites (`#kt3`) from hero and background.
-- Reduced kite density to a balanced 2-hero kite layout (Sapphire Blue on left, Coral Rose on right) plus 1 subtle ambient cruising kite (Emerald Teal).
-- Verified clean layout via browser screenshot.
+- Added Purple kite (`#kt2`) with vivid violet/lilac palette.
+- Set right-hand hero kite to Emerald Green (`#kt5`).
+- Configured Purple kite to fly freely around the website via `@keyframes fly-around-site`.
+- Verified live rendering via browser screenshot proof.
+- Committed changes to Git repo (`b086e6d`).

@@ -3,7 +3,6 @@
 ## Current Phase: Complete
 ## Status: Verified & Committed
 ## Completed:
-- Added multi-color SVG symbols for kites (Sunset Amber, Coral Rose, Emerald Teal, Sapphire Blue).
-- Replaced stiff linear sway with organic multi-stage buoyant wind simulation keyframes (`fly-free-a/b/c/d` and `soar-across-mid/high/low`).
-- Verified visual output in browser via screenshot.
-- Committed to Git repository (`2cf9950`).
+- Removed all yellow/amber kites (`#kt3`) from hero and background.
+- Reduced kite density to a balanced 2-hero kite layout (Sapphire Blue on left, Coral Rose on right) plus 1 subtle ambient cruising kite (Emerald Teal).
+- Verified clean layout via browser screenshot.

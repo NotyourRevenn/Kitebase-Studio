@@ -1,22 +1,34 @@
-﻿# SPEC: Purple Flying Kite & Right-Hand Green Kite
+﻿# SPEC: Complete Studio-Grade Overhaul of Kitebase Studio
 
 Status: FINALIZED
 Date: 2026-11-23
 
 ## 1. Objective
-1. Add a rich, vibrant Purple/Violet kite SVG palette (`#kt2`).
-2. Position the Green kite (`#kt5`) on the right-hand side of the hero section.
-3. Configure the Purple kite to fly freely around the website with organic multi-axis drift, elevation shifts, and graceful banking.
+Transform Kitebase Studio from an AI-templated appearance into an authentic, boutique digital design and growth studio. Eliminate recognized LLM/AI design tropes and implement modern, high-craft creative studio patterns.
 
-## 2. Requirements
-- **Purple Kite SVG (`#kt2`)**:
-  - Top Left: `#9333ea` (electric purple)
-  - Top Right: `#581c87` (deep royal violet)
-  - Bottom Left: `#c084fc` (bright lavender)
-  - Bottom Right: `#e9d5ff` (soft lilac)
-  - Tail & Bows: `#a855f7` and `#c084fc`
-- **Right-Hand Green Kite (`#kt5`)**:
-  - The hero right kite (`.fk.b`) uses `<use href="#kt5"/>` (Emerald Teal/Green).
-- **Free-Flying Purple Kite**:
-  - An ambient `.fly` SVG element referencing `<use href="#kt2"/>`.
-  - Continuous CSS animation spanning across the viewport width and height with dynamic wind lift and tilts.
+## 2. Requirements & Scope
+- **Typography & Aesthetics**:
+  - Replace `Allura` cursive script with `Instrument Serif` (or similar high-character editorial display serif) from Google Fonts.
+  - Remove decorative AI fillers (4-point star SVGs `.star`, generic squiggle lines `.sq`).
+  - Implement sophisticated typographic scale with tighter tracking on display headings (`-0.03em`).
+- **Hero & Positioning**:
+  - Open-air, full-bleed hero composition instead of a constrained slide card.
+  - Reposition value proposition from commodity buzzwords to high-converting flagship systems.
+  - Add credibility badges & studio metrics (e.g. Sub-second load times, Bespoke code, 100% responsive).
+- **Portfolio & Case Studies**:
+  - Eliminate placeholder dashed boxes ("Your project", "Coming soon") and raw Claude links.
+  - Implement realistic, high-fidelity browser/device mockup cards for 3 concrete showcase projects (Summit Roofing, Aura Dental Studio, Apex Logistics) with real business metrics and visual mockups.
+- **Services & Delivery**:
+  - Consolidate disjointed commodity services into 2 cohesive, high-value offerings: Digital Flagships & Automated Growth Systems.
+  - Restructure "How It Works" into an agile 3-stage delivery sprint.
+- **Trust & FAQ (India to US)**:
+  - Reposition geographic location into an asset: "Global Studio, US Hours — Overnight Turnarounds (You sleep, we build)".
+  - Replace harsh `<details>` pop with smooth animated accordion transitions.
+- **Contact Form & Functional Polish**:
+  - Eliminate broken `mailto:` client launch.
+  - Provide inline async submission handling with immediate confirmation.
+
+## 3. Verification Criteria
+- Visual review across all screen sizes (desktop, tablet, mobile).
+- No console errors, no broken external dependencies.
+- Verified in browser via screenshots at every major phase.

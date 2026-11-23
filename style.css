@@ -81,19 +81,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 100%{transform:translate(0,0) rotate(6deg)}
 }
 
-.fly{position:fixed;left:0;top:0;width:52px;height:auto;z-index:30;pointer-events:none;opacity:.95;will-change:transform;animation:fly-around-site 26s cubic-bezier(.38,.02,.62,.98) infinite}
+.fly{position:fixed;left:0;top:0;width:52px;height:auto;z-index:30;pointer-events:none;opacity:.95;will-change:transform;animation:fly-around-site 36s ease-in-out infinite}
 
 @keyframes fly-around-site{
-0%{transform:translate(-15vw,25vh) rotate(14deg) scale(0.95)}
-15%{transform:translate(15vw,12vh) rotate(-10deg) scale(1.02)}
-30%{transform:translate(38vw,28vh) rotate(12deg) scale(1)}
-45%{transform:translate(55vw,8vh) rotate(-14deg) scale(0.98)}
-60%{transform:translate(75vw,24vh) rotate(8deg) scale(1.04)}
-75%{transform:translate(92vw,15vh) rotate(-8deg) scale(1)}
-88%{transform:translate(110vw,22vh) rotate(6deg) scale(0.96)}
-92%{transform:translate(118vw,35vh) rotate(0deg) scale(0.9)}
-95%{transform:translate(-18vw,35vh) rotate(10deg) scale(0.9)}
-100%{transform:translate(-15vw,25vh) rotate(14deg) scale(0.95)}
+0%{transform:translate(-10vw,24vh) rotate(12deg) scale(0.95)}
+12%{transform:translate(18vw,14vh) rotate(-8deg) scale(1.02)}
+24%{transform:translate(45vw,26vh) rotate(10deg) scale(1)}
+36%{transform:translate(72vw,12vh) rotate(-10deg) scale(1.03)}
+48%{transform:translate(98vw,22vh) rotate(8deg) scale(0.98)}
+53%{transform:translate(108vw,36vh) rotate(-4deg) scale(0.96)}
+58%{transform:translate(96vw,48vh) rotate(-14deg) scale(0.98)}
+68%{transform:translate(70vw,38vh) rotate(8deg) scale(1.02)}
+78%{transform:translate(42vw,52vh) rotate(-10deg) scale(1)}
+88%{transform:translate(16vw,36vh) rotate(6deg) scale(1.02)}
+94%{transform:translate(-6vw,42vh) rotate(-8deg) scale(0.96)}
+98%{transform:translate(-12vw,32vh) rotate(4deg) scale(0.95)}
+100%{transform:translate(-10vw,24vh) rotate(12deg) scale(0.95)}
 }
 [id]{scroll-margin-top:96px}
 .ttl{display:flex;justify-content:space-between;align-items:center}

@@ -1,34 +1,25 @@
-﻿# SPEC: Complete Studio-Grade Overhaul of Kitebase Studio
+﻿# SPEC: Anti-Slop Editorial Redesign — Kitebase Studio
 
 Status: FINALIZED
-Date: 2026-11-23
+Date: 2026-11-25
 
 ## 1. Objective
-Transform Kitebase Studio from an AI-templated appearance into an authentic, boutique digital design and growth studio. Eliminate recognized LLM/AI design tropes and implement modern, high-craft creative studio patterns.
+Eliminate all visual and copywriting markers of AI-generated templates ("AI slop") and rebuild Kitebase Studio around a restrained, architectural Swiss-editorial layout with plainspoken human copy, honest solo studio ownership, and genuine miniature UI demonstrations.
 
-## 2. Requirements & Scope
-- **Typography & Aesthetics**:
-  - Replace `Allura` cursive script with `Instrument Serif` (or similar high-character editorial display serif) from Google Fonts.
-  - Remove decorative AI fillers (4-point star SVGs `.star`, generic squiggle lines `.sq`).
-  - Implement sophisticated typographic scale with tighter tracking on display headings (`-0.03em`).
-- **Hero & Positioning**:
-  - Open-air, full-bleed hero composition instead of a constrained slide card.
-  - Reposition value proposition from commodity buzzwords to high-converting flagship systems.
-  - Add credibility badges & studio metrics (e.g. Sub-second load times, Bespoke code, 100% responsive).
-- **Portfolio & Case Studies**:
-  - Eliminate placeholder dashed boxes ("Your project", "Coming soon") and raw Claude links.
-  - Implement realistic, high-fidelity browser/device mockup cards for 3 concrete showcase projects (Summit Roofing, Aura Dental Studio, Apex Logistics) with real business metrics and visual mockups.
-- **Services & Delivery**:
-  - Consolidate disjointed commodity services into 2 cohesive, high-value offerings: Digital Flagships & Automated Growth Systems.
-  - Restructure "How It Works" into an agile 3-stage delivery sprint.
-- **Trust & FAQ (India to US)**:
-  - Reposition geographic location into an asset: "Global Studio, US Hours — Overnight Turnarounds (You sleep, we build)".
-  - Replace harsh `<details>` pop with smooth animated accordion transitions.
-- **Contact Form & Functional Polish**:
-  - Eliminate broken `mailto:` client launch.
-  - Provide inline async submission handling with immediate confirmation.
-
-## 3. Verification Criteria
-- Visual review across all screen sizes (desktop, tablet, mobile).
-- No console errors, no broken external dependencies.
-- Verified in browser via screenshots at every major phase.
+## 2. Anti-Slop Design & Copy Rules
+- **Palette & Structure**:
+  - Replace generic dark `#181818` / `#272727` stacked rounded boxes with refined Warm Paper light mode (`#f7f5f0`) and Deep Navy-Obsidian dark mode (`#0c0e14`) plus a clean theme switcher.
+  - Use crisp `1px` structural hairlines and open negative space instead of boxed card-on-card clutter.
+  - Preserve signature SVG kites (Blue `#kt` left, Green `#kt5` right, smooth 36s roaming Purple `#kt2`).
+- **Assets & Showcases**:
+  - Remove the 60KB AI-generated two-person cartoon portrait (`<div class="arch">`). Replace with crisp vector blueprint kite craft visual.
+  - Remove fake AI startup case studies (`Summit Roofing`, `Aura Dental`, `Apex Logistics`) and fabricated percentage badges (`+140%`, `3.2x`, `40%`).
+  - Build 3 realistic miniature system previews demonstrating actual capabilities:
+    1. *Interactive Estimate Calculator UI* (Web Design)
+    2. *Live Booking Assistant Handoff Transcript* (AI Chatbots & Automation)
+    3. *Plain-English Monthly Content & Traffic Brief* (Social Media & Reporting)
+- **Copywriting**:
+  - Authentic solo, founder-led studio tone with zero headcount inflation and zero LLM buzzwords (`bespoke digital flagship`, `high-intent`, `conversion-engineered`, `frictionless`, `zero agency fluff/limbo`, `Marcus Vance`).
+  - Explicitly cover all 5 services: **Web Design**, **AI Automation**, **AI Chatbots**, **Social Media Management**, and **Reporting & Analysis**.
+- **Interactive Verification**:
+  - Verify both desktop and mobile viewports plus interactive components (preview tabs/widgets, theme toggle, FAQ accordions, form submit) in browser before pushing to GitHub.

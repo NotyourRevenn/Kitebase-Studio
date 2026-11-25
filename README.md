@@ -20,7 +20,7 @@ Kitebase Studio is a high-performance digital studio portfolio and growth platfo
   - *04. Social Media Management* (Strategic calendars, handcrafted AI reels & active channel growth)
   - *05. Reporting & Analysis* (Plain-English performance audits & conversion attribution)
 - **7-Day Sprint Delivery Model:** Transparent, fixed-price 3-step delivery framework (*Strategy & Architecture*, *Bespoke Build Sprint*, *Launch & Growth Handoff*).
-- **Asynchronous Global Positioning:** "Global Talent, US Hours" operational framework.
+- **US-Hours Asynchronous Positioning:** Solo founder-led delivery aligned to US business hours.
 - **Modern Asynchronous Form:** Client-side validated conversion form with instant interactive confirmation state.
 
 ---

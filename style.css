@@ -128,14 +128,17 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,
 .ci div{text-align:center}
 .ci b{display:grid;place-items:center;width:56px;height:56px;margin:0 auto 8px;border-radius:50%;background:var(--card2);color:var(--acc);box-shadow:var(--sh)}
 .sv{display:flex;flex-direction:column}
-.service-cards{display:grid;grid-template-columns:1fr;gap:16px;margin-top:16px}
-.service-card{background:var(--card2);border:1.5px solid var(--b1);border-radius:16px;padding:20px;transition:border-color 300ms var(--ease),transform 300ms var(--ease)}
+.service-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}
+.service-card{background:var(--card2);border:1.5px solid var(--b1);border-radius:16px;padding:16px;transition:border-color 300ms var(--ease),transform 300ms var(--ease)}
 .service-card:hover{border-color:var(--acc);transform:translateY(-2px)}
-.service-header{display:flex;gap:16px;align-items:flex-start}
-.service-num{font:italic 400 32px/1 'Instrument Serif',Georgia,serif;color:var(--acc);min-width:32px}
-.service-features{list-style:none;margin:16px 0 0;padding:12px 0 0;border-top:1px solid var(--b1);display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+.service-card.featured{grid-column:1 / -1;padding:18px 20px}
+.service-header{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.service-card.featured .service-header{flex-direction:row;gap:14px}
+.service-num{font:italic 400 28px/1 'Instrument Serif',Georgia,serif;color:var(--acc);min-width:28px}
+.service-features{list-style:none;margin:14px 0 0;padding:12px 0 0;border-top:1px solid var(--b1);display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px}
 .service-features li{font-size:12px;color:var(--mut);display:flex;align-items:center;gap:6px}
 .service-features b{color:var(--acc);font-weight:700}
+@media (max-width:600px){.service-cards{grid-template-columns:1fr}.service-card.featured .service-header{flex-direction:column;gap:6px}}
 .tagrow{margin-top:auto;padding-top:24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .tagrow .sq{margin-top:0}
 .bpg{color:var(--acc)}

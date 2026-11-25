@@ -13,9 +13,12 @@ Kitebase Studio is a high-performance digital studio portfolio and growth platfo
   - *Summit Roofing & Exteriors* (+140% Inbound Calls, roof calculator, regional SEO)
   - *Aura Dental Studio* (3.2x Consultation Bookings, cosmetic dental portal)
   - *Apex Logistics Global* (40% Faster Onboarding, real-time freight rate engine)
-- **Productized Core Systems:** Clear, value-anchored service packages:
-  - *01. Bespoke Digital Flagships* (Sub-second load times, local SEO schemas, zero builder bloat)
-  - *02. Automated Growth Engines* (Instant SMS/email lead routing, automated 5-star review acceleration)
+- **Full-Stack Growth Services:** Five cohesive studio capabilities:
+  - *01. Web Design* (Custom-coded digital flagships, sub-second speeds, local SEO schemas)
+  - *02. AI Automation* (End-to-end workflows, instant SMS/email lead routing, CRM sync)
+  - *03. AI Chatbots* (24/7 conversational qualification & automated booking assistants)
+  - *04. Social Media Management* (Strategic calendars, handcrafted AI reels & active channel growth)
+  - *05. Reporting & Analysis* (Plain-English performance audits & conversion attribution)
 - **7-Day Sprint Delivery Model:** Transparent, fixed-price 3-step delivery framework (*Strategy & Architecture*, *Bespoke Build Sprint*, *Launch & Growth Handoff*).
 - **Asynchronous Global Positioning:** "Global Talent, US Hours" operational framework.
 - **Modern Asynchronous Form:** Client-side validated conversion form with instant interactive confirmation state.
